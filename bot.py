@@ -51,7 +51,7 @@ async def op(_, m :Message):
                 InlineKeyboardButton("🍀 Check Again 🍀", callback_data="chk")
             ]]
         ) 
-        await m.reply_text("**⚠️Access Denied!⚠️\n\nPlease Join My Update Channel To Use Me.If You Joined The Channel Then Click On Check Again Button To Confirm.**", reply_markup=key)
+        await m.reply_text("**⚠️Access Denied!⚠️\n\nPlease Join My Update Channel To Use Me.If You Joined The Channel Then Click On Check Again Button To Confirm or /start again.**", reply_markup=key)
         return 
     keyboard = InlineKeyboardMarkup(
         [[
