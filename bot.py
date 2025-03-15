@@ -56,11 +56,11 @@ async def op(_, m :Message):
     keyboard = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton("🗯 Channel", url="https://t.me/KGN_BOT_Z"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("💬 Support", url="https://t.me/+zlb3ReuJ40tjMDA1")
         ]]
     )
     add_user(m.from_user.id)
-    await m.reply_photo("https://graph.org/file/d57d6f83abb6b8d0efb02.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @KGN_BOT_Z __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
+    await m.reply_photo("https://i.ibb.co/0pQ85D1K/6179326563410100013.jpg", caption="**🦊 Hello {}!\nI'm an auto approve [Admin Join Requests]({}) Bot.\nI can approve users in Groups/Channels.Add me to your chat and promote me to admin with add members permission.\n\n__Powered By : @KGN_BOT_Z __**".format(m.from_user.mention, "https://t.me/telegram/153"), reply_markup=keyboard)
     
 
 #━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ callback ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -75,7 +75,7 @@ async def chk(_, cb : CallbackQuery):
     keyboard = InlineKeyboardMarkup(
         [[
             InlineKeyboardButton("🗯 Channel", url="https://t.me/KGN_BOT_Z"),
-            InlineKeyboardButton("💬 Support", url="https://t.me/vj_bot_disscussion")
+            InlineKeyboardButton("💬 Support", url="https://t.me/+zlb3ReuJ40tjMDA1")
         ]]
     )
     add_user(m.from_user.id)
